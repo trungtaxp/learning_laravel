@@ -32,5 +32,6 @@ class AdminController extends Controller
     public function logout()
     {
         return view('backend.admin_login');
+        //
     }
 }
