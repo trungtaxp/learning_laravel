@@ -22,3 +22,5 @@ Route::post('/admin-login',[AdminController::class,'login']);
 
 Route::post('/login',[HomeController::class,'login']);
 
+Route::post('/login',[HomeController::class,'logout']);
+
